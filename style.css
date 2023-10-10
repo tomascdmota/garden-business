@@ -1,0 +1,59 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+header {
+    background-color: #457d00;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    margin: 0;
+    font-size: 1.9rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 0;
+}
+
+.nav-links {
+    font-size: 1.3rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-links a:hover {
+    cursor: pointer;
+    color: #fcec9a;
+}
+
+.logo a {
+    color: white;
+}
+
+
+.logo a, .nav-main a {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+.nav-main a {
+    color: white;
+}
+
