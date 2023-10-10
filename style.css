@@ -64,6 +64,10 @@ a {
 }
 
 
+
+
+
+
 .hero {
     background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F1c%2F71%2F54%2F1c7154280cf4c3701f859278d879f4c8.jpg&f=1&nofb=1&ipt=40cc3cc99e0c303f0566c483c95d61b1f950ce201b7ed6a80757d24c07a3799d&ipo=images");
     background-size: cover; 
@@ -108,3 +112,143 @@ a {
 .cta-button:hover {
     background-color: #028900;
 }
+
+
+
+.services {
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+    height: 100vh;
+}
+
+.services h2{
+    font-size: 3rem;
+    color: #49780f;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+}
+
+.service-container {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.service {
+    width: 600px;
+    margin: 50px 50px;
+    padding: 40px 50px;
+    border-radius: 15px;
+    border: 1px solid white;
+    background-color: #49780f;
+}
+
+.service img {
+    height: 400px;
+    width: 350px;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.service p {
+    font-size: 1rem;
+    color: #fff;
+}
+
+
+
+
+
+
+@media (max-width: 1600px){
+    .nav-links {
+        font-size: 1.5rem;
+    }
+    .logo {
+        padding-right: 20%;
+    }
+
+
+    
+.service-container {
+    max-width: 300px;
+}
+
+.service {
+    width: 500px;
+    margin: 50px 50px;
+    padding: 40px 50px;
+}
+
+.service img {
+    height: 300px;
+    width: 250px;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+}
+
+
+@media (max-width: 1350px) {
+
+    .nav-links {
+        font-size: 1.3rem;
+    }
+    .logo {
+        padding-right: 20%;
+    }
+    .service-container {
+        max-width: 300px;
+    }
+    
+    .service {
+        width: 500px;
+        margin: 50px 50px;
+        padding: 40px 30px;
+    }
+    
+    .service img {
+        height: 200px;
+        width:170px;
+        margin: 0 auto 10px;
+        display: block;
+    }
+}
+
+
+@media (max-width: 1300px) {
+    .service-container {
+        flex-direction: column;
+    }
+    
+    .service {
+        width: 500px;
+        margin: 50px 50px;
+        padding: 40px 30px;
+    }
+    
+    .service img {
+        height: 400px;
+        width:400px;
+        margin: 0 auto 10px;
+        display: block;
+    }
+}
+
