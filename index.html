@@ -11,7 +11,7 @@
                     <ul class="nav-main">
                         <li class="nav-links"><a href="#hero">Home</a></li>
                         <li class="nav-links"><a href="#services">Services</a></li>
-                        <li class="nav-links"><a>Contact Us</a></li>
+                        <li class="nav-links"><a href="#contact">Contact Us</a></li>
                         <li class="nav-links"><a href="#portfolio">Portfolio</a></li>
                     </ul>
             </header>
@@ -75,10 +75,30 @@
                 </div>
             </section>
 
+            <section class="contact" id="contact">
+                
+                <h2>Contact us</h2>
+                <div class="contact-container">
+                <form id="contactForm">
+                    <label>Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label>Email:</label>
+                    <input type="email" id="email" name="name" required>
+                    <label>Order:</label>
+                    <input type="text" id="message" name="name" required>
+                    <button type="button" onclick="sendEmail()">Submit</button>
+                </form>
+            </div>
+            </section>
+
           
         </body>
 
         <footer>
 
         </footer>
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script src="index.js">
+        </script>
+        
     </html>
